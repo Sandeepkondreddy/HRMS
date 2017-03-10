@@ -220,6 +220,7 @@
 							//$btn.attr('class', 'btn btn-custom-icon');
 							$("#txtusername").attr('disabled', true);
 							$("#txtpassword").attr('disabled', true);
+							debugger;
 							$.ajax({
 								type: "GET",
 								url: "http://202.83.27.199/KPCTSDS/api/Account/ValidateUser/" + $("#txtusername").val().trim() + "/" + $("#txtpassword").val(),
